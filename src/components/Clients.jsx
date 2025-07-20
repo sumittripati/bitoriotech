@@ -29,14 +29,14 @@ const testimonials = [
 
 const Clients = () => {
   return (
-    <section className="bg-blue-50 py-16 px-6 md:px-12">
+    <section className="bg-blue-50 py-16 px-6 md:px-10">
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-3xl font-bold text-gray-800 mb-2">What Our Clients Say</h2>
         <p className="text-gray-600 mb-10">
           Hear directly from the businesses we’ve helped transform.
         </p>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {testimonials.map((testimonial, idx) => (
             <div key={idx} className="bg-white rounded-lg shadow-sm p-6 text-left hover:shadow-md transition">
               <p className="text-sm text-gray-700 italic mb-4 h-[100px]">“{testimonial.text}”</p>

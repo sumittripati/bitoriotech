@@ -24,7 +24,7 @@ const Offers = () => {
     <div className='mt-14'>
       <section className="max-w-7xl mx-auto p-3">
       <h2 className="text-3xl font-bold mb-2">What We Offer</h2>
-      <p className="text-gray-600 mb-6 border-2 w-[470px]">At BitorioTech, we provide a comprehensive suite of technology services designed to help your business thrive in the digital age. Our solutions are tailored to your specific needs.</p>
+      <p className="text-gray-600 mb-6 border-2 w-[330px] sm:w-[400px]">At BitorioTech, we provide a comprehensive suite of technology services designed to help your business thrive in the digital age. Our solutions are tailored to your specific needs.</p>
       <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-10">
         <div>
           {offers.map((item, index) => (
