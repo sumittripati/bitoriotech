@@ -1,5 +1,5 @@
 import React from "react";
-import { Brain, Code2, Cloud, ShieldCheck, BarChart2, Palette} from "lucide-react";
+import { Brain, Code2, Cloud, ShieldCheck, BarChart2, Palette } from "lucide-react";
 
 const services = [
   {
@@ -42,11 +42,13 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="bg-white py-16 px-6 md:px-10">
+    <section id="services" className="bg-white py-16 px-6 md:px-10">
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-3xl font-bold text-gray-800 mb-2">Our Core Services</h2>
-        <p className="text-gray-600 max-w-xl mx-auto mb-10">From intelligent automation to secure digital experiences, we cover all your technological needs.</p>
-        <div className="grid md:grid-cols-3 lg:grid-cols-3 gap-6 bo">
+        <p className="text-gray-600 max-w-xl mx-auto mb-10">
+          From intelligent automation to secure digital experiences, we cover all your technological needs.
+        </p>
+        <div className="grid md:grid-cols-3 lg:grid-cols-3 gap-6">
           {services.map((service, idx) => (
             <div key={idx} className="border border-gray-200 rounded-lg p-6 text-center shadow-sm hover:shadow-md transition bg-white h-[220px]">
               <div className="flex justify-center mb-4">{service.icon}</div>
@@ -61,3 +63,4 @@ const Services = () => {
 };
 
 export default Services;
+

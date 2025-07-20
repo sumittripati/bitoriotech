@@ -13,9 +13,9 @@ const points = [
 const Innovation = () => {
   return (
     <div>
-      <section className="bg-white py-12 px-6 md:px-12 max-w-8xl mx-auto">
+      <section className="bg-white px-6 md:px-12 max-w-8xl mx-auto">
       <div className="grid md:grid-cols-2 gap-8 items-center">
-        <img src="./driving.png" alt="Team Innovation" className="w-full rounded shadow-lg max-h-[400px]"/>
+        <img src="./driving.png" alt="Team Innovation" className="w-full rounded shadow-lg max-h-[400px] mb-3"/>
         <div>
           <h2 className="text-3xl md:text-3xl font-bold mb-4 text-gray-800">Driving Innovation, Delivering Excellence</h2>
           <p className="text-gray-600 mb-6 w-full">BitorioTech is a leading technology company dedicated to providing innovative solutions that solve complex business challenges. Our team of experts combines deep industry knowledge with cutting-edge technology to deliver measurable results.</p>
